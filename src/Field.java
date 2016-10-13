@@ -23,6 +23,10 @@ public class Field {
         }
     }
 
+    void setRandomPoint(Point point) {
+        point.getTwoRandomCoordinates();
+        //TODO мы имеем переменную типа Point хранящуюю в себе 2 координаты как их поместить в массив и вывести на экран?
+    }
 }
 
 
